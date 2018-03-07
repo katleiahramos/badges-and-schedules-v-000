@@ -24,3 +24,8 @@ def assign_rooms(speakers_list)
   end
   return speaker_room
 end
+
+def printer(names, speakers_list) 
+  puts batch_badge_creator(names)
+  puts assign_rooms(speakers_list)
+  
