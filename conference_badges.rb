@@ -20,6 +20,6 @@ def assign_rooms(speakers_list)
   speaker_room = Array.new
   speakers_list.each do |speaker|
     speaker_room.push(badgemaker(name) + room_assignment(room))
-    room += 1 
-  end 
+    room += 1
+  end
 end 
