@@ -13,10 +13,13 @@ end
 
 def room_assignment(room)
   return "You'll be assigned to room #{room}!"
-end 
+end
 
 def assign_rooms(speakers_list)
   room = 1
   speaker_room = Array.new
   speakers_list.each do |speaker|
-    speaker_room.push()
+    speaker_room.push(badgemaker(name) + room_assignment(room))
+    room += 1 
+  end 
+end 
