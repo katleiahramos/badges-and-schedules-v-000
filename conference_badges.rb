@@ -22,4 +22,5 @@ def assign_rooms(speakers_list)
     speaker_room.push(badge_maker(name) + room_assignment(room))
     room += 1
   end
+  return speaker_room
 end
