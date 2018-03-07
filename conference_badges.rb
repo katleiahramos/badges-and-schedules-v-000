@@ -10,3 +10,14 @@ def batch_badge_creator(names)
   end
   return badge_messages
 end
+
+def room_assignments(room)
+  return "You'll be assigned to room #{room}!"
+  
+def assign_rooms(speakers_list)
+  room = 1
+  speaker_room = Array.new 
+  speakers_list.each do |speaker|
+    speaker_room.push()
+    
+    
